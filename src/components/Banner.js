@@ -55,9 +55,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to DevSet</span>
+                <span className="tagline">Welcome to DevSet.Tech</span>
                 <h1>{`Hi! We do: `}<span className="wrap">{text}</span></h1>
-                  <p>We are composed of ordinary people doing extraordinary work. We take pride in our strict selection processes, skill evaluation, and structured onboarding methods that ensure we hire world-class</p>
+                  <p>We are composed of ordinary people doing extraordinary work. We take pride in our requirement processes, design evaluation, and structured programming methods that ensure we deliver world-class products.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
