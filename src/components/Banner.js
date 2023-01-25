@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header1-img.svg";
+import headerImg from "../assets/img/Header1.JPG";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 10);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web and App Development", "Software Engineering", "Data Base Administration" ];
+  const toRotate = [ "Web and App Development", "Software Engineering", "Database Administration" ];
   const period = 1000;
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to DevSet.Tech</span>
+                <span className="tagline">Welcome to Devset.Tech</span>
                 <h1>{`Hi! We do: `}<span className="wrap">{text}</span></h1>
                   <p>We are composed of ordinary people doing extraordinary work. We take pride in our requirement processes, design evaluation, and structured programming methods that ensure we deliver world-class products.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
