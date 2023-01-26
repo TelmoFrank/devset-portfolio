@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #4D4D4D !important;
+  background-color: #F2D79D !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -92,7 +92,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #B0DDE3;
+  background-color: #BFBEAE;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -236,7 +236,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 260px 0 100px 0;
   /*  background-image: url('./assets/img/banner-bg.jpg');*/
   /*background: linear-gradient(90.21deg, #432a08 -5.91%, #f3ce3c 111.58%);*/
-  background-color: #D9DED7;
+  background-color: #F2E6BF;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -311,18 +311,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #103B07;
+  background: #BFBEAE;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
 .skill h2 {
-	font-size: 45px;
-	font-weight: 700;
+	color:#9638C7;
+  font-size: 45px;
+	font-weight: 700;  
 }
 .skill p {
-    color: #B8B8B8;
+    color: #9638C7;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -349,7 +350,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: #F5CD73;
+  background-color: #F2E3CB;
   /*rgb(222, 243, 29)*/
 }
 .project h2 {
@@ -371,7 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: rgba(231, 15, 15, 0.1);
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
