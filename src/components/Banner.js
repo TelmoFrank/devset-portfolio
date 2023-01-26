@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 10);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web and App Development", "Software Engineering", "Database Administration" ];
+  const toRotate = [ "Small companies", "Medium companies" ];
   const period = 1000;
 
   useEffect(() => {
@@ -56,8 +56,14 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to Devset.Tech</span>
-                <h1>{`Hi! We do: `}<span className="wrap">{text}</span></h1>
-                  <p>We are composed of ordinary people doing extraordinary work. We take pride in our requirement processes, design evaluation, and structured programming methods that ensure we deliver world-class products.</p>
+                <h1>{`Hi! We do business analysis for `}<span className="wrap">{text}</span></h1>
+                  <p>WWe are Telmo and Isabel, and we both are Informatics Engineers that translate problems into opportunities via an IT solution design. We combine our decade of IT experience with our enthusiasm for learning with the right foundation skills together with our problem-solving skills.</p>
+                  <p>
+                  Our Australian qualifications comprise our skills assessment at ACS (The Professional Association for Australia's ICT sector).  Telmo is registered as a software developer and  Isabel as a database administrator. She also studied the diplomas ICT50118 (Diploma of Information Technology) And ICT60220 (Advanced Diploma of Information Technology) and together we implemented some internship projects.
+                  </p>
+                  <p>
+                  This combination of experience and studies has been our basic foundation in business analysis.
+                  </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

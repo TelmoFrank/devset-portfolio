@@ -37,7 +37,12 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>We have more than 10 years of IT experience working with small and medium industries such as Community Worker, Public Administration and Safety. We also took part in the corporative sector working with complex organizational structures such as TATA Consultancy Services and The Ecuadorian Government.</p>
+                  <p>
+                    We deliver a solution from the gathering of requirements to the implementation. We map a business requirement or process to a system functionality that meets the client's needs whilst identifying gaps and opportunities.
+                  </p>
+                  <p>
+                    We have also built effective relationships with people who own businesses or lead community services. Please have a look at the solutions we have implemented.
+                  </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
