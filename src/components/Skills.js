@@ -5,18 +5,9 @@ import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 import requirements from "../assets/img/logo-requirements.svg";
-import scrum from "../assets/img/logo-scrum.svg";
-import uml from "../assets/img/logo-structure.svg";
-import bases from "../assets/img/logo-databases.svg";
-import stack1 from "../assets/img/logo-fullstack1.jpg";
-
-import swift from "../assets/img/logo-swift.svg";
-import nodejs from "../assets/img/logo-nodejs.svg";
-import react from "../assets/img/logo-react.svg";
-import javascript from "../assets/img/logo-responsive.svg";
-import mariadb from "../assets/img/logo-mariadb.svg";
-
-import dotnet from "../assets/img/logo-dotnet.svg";
+import designsoftware from "../assets/img/logo-designsoftware.svg";
+import statistics from "../assets/img/logo-statistics.svg";
+import mobileapps from "../assets/img/logo-mobileapps.svg";
 
 
 
@@ -47,46 +38,28 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>We are a set of fullstack developers, software engineers and database administrators pasionated about creating and deploying technical solutions.<br></br> Some of the tools we are experts in...</p>
+                        <h2>Services</h2>
+                        <p>We offer consultancy to help organizations with digital transformation.<br></br> These are our strengs...</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={requirements} alt="" />
-                                <h5>Software Requirements</h5>
+                                <h5>IT Project Management</h5>
                             </div>
                             <div className="item">
-                                <img src={uml} alt="" />
-                                <h5>Software Modeling and Design</h5>
+                                <img src={designsoftware} alt="" />
+                                <h5>Software Design and Development</h5>
                             </div>
+                           
                             <div className="item">
-                                <img src={scrum} alt="" />
-                                <h5>Agile Metodologies</h5>
-                            </div>
-                            <div className="item">
-                                <img src={bases} alt="" />
-                                <h5>RDBMS SQL, Oracle, MySQL</h5>
+                                <img src={statistics} alt="" />
+                                <h5>Data Analysis</h5>
                             </div>
                             
-                            <div className="item">
-                                <img src={react} alt="" />
-                                <h5>Reactjs and React Native</h5>
+                           <div className="item">
+                                <img src={mobileapps} alt="" />
+                                <h5>iOS & Android Apps </h5>
                             </div>
-                            <div className="item">
-                                <img src={dotnet} alt="" />
-                                <h5>DotNet </h5>
-                            </div>
-                            <div className="item">
-                                <img src={nodejs} alt="" />
-                                <h5>Node js </h5>
-                            </div>
-                            <div className="item">
-                                <img src={swift} alt="" />
-                                <h5>iOS Apps </h5>
-                            </div>
-                            <div className="item">
-                                <img src={javascript} alt="" />
-                                <h5>Web Responsive Apps</h5>
-                            </div>
+                            
                            
                             
                         </Carousel>

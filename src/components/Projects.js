@@ -11,18 +11,18 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Field Guide of the Plants and Fungi of Westgate Park",
-      description: "iOS App: Reingineering & Development",
+      title: "Westgate Park Field Guide",
+      description: "iOS Movile App: Reingineering & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Spanish Window Community Services",
+      title: "SWCS - Latinoamerican Community",
       description: " Web Site: Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Lifting Equipment Data Base",
-      description: " Express+Nodejs+MariaDB Web Application: Design & Development",
+      title: "Kebles Trading ",
+      description: " Web App: Software Development",
       imgUrl: projImg3,
     }
   ];
@@ -37,24 +37,12 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
+                 
                   <p>
-                    We deliver a solution from the gathering of requirements to the implementation. We map a business requirement or process to a system functionality that meets the client's needs whilst identifying gaps and opportunities.
-                  </p>
-                  <p>
-                    We have also built effective relationships with people who own businesses or lead community services. Please have a look at the solutions we have implemented.
+                   These are some of the projects we have delivered.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Mobile-Web Apps</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">Software Engineering</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Databases Management</Nav.Link>
-                      </Nav.Item>
-                    </Nav>
+                  
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
                         <Row>
@@ -70,13 +58,7 @@ export const Projects = () => {
                           }
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">
-                        <p>We are experienced software developer on system integration and implementation for major government projects as well as tech lead for consultancies like TATA and BSG. With a background in Informatics Engineering and Systems Management, we are focused on end-to-end software development (analysis, design, coding, test and optimization) for effective technical solutions.</p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>Planning, developing, configuring, maintaining and supporting database management systems such as Oracle, SQL and MySQL among others.</p>
-                        <p>We meet client requirements ensuring optimal database integrity, security, backup, reliability and performance.</p>
-                      </Tab.Pane>
+
                     </Tab.Content>
                   </Tab.Container>
                 </div>}
